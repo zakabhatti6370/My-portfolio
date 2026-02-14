@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>ZakaUllah - Professional Web Developer | HTML, CSS, JavaScript</title>
+        <meta name="description" content="Hire ZakaUllah, a professional web developer specializing in HTML, CSS, JavaScript, WordPress, and E-commerce. Modern, responsive websites with SEO optimization.">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="ZakaUllah Bhatti">
+        <meta name="theme-color" content="#0d6efd">
+        
+        <meta property="og:title" content="ZakaUllah - Professional Web Developer">
+        <meta property="og:description" content="Get modern, responsive, and SEO-friendly websites. Expert in HTML, CSS, JavaScript, WordPress.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://yourdomain.com">
+        <meta property="og:image" content="images/og-preview.jpg">
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="ZakaUllah - Web Developer">
+        <meta name="twitter:description" content="Expert in HTML, CSS, JavaScript, WordPress">
+        
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/privacy.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+<body>
+    <!-- Top Social Icons -->
+    <div class="top-social-icons">
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-title-main">
+            <a href="index.html" class="site-title">
+                <img src="https://cdn-icons-png.flaticon.com/512/1329/1329016.png" alt="Web Development Logo" class="logo">
+
+                <!-- <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Web Developer Logo" class="logo">                <img src="images/web-logo.png" alt="ZakaUllah Web Development Logo" class="logo" loading="lazy"> -->
+                <span class="site-title-text"><span>Web</span>Development</span>
+            </a>
+        </div>
+        
+        <button class="menu-btn" aria-label="Toggle menu">
+            <span class="menu-icon">☰</span>
+            <span class="menu-text">Menu</span>
+        </button>
+        
+        <div class="navigation">
+            <nav aria-label="Main navigation">
+                <ul class="nav">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            
+            <div class="search-bar desktop-search">
+                <form id="searchForm" role="search">
+                    <input type="text" id="searchInput" placeholder="Search projects..." aria-label="Search">
+                    <button type="submit" aria-label="Submit search">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+        <button class="close-btn" aria-label="Close menu">✕</button>
+        <nav aria-label="Mobile navigation">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-bar mobile-search">
+            <form id="mobileSearchForm" role="search">
+                <input type="text" id="mobileSearchInput" placeholder="Search projects..." aria-label="Search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <div id="menuBackdrop" class="menu-backdrop"></div>
+    
+    <!-- Search Results Message -->
+    <div id="searchResults" class="search-results-container" style="display: none;">
+        <div id="no-results-message" class="no-results">No projects found matching your search.</div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero-main-page">
+                <div class="hero-left">
+                    <img src="images/web-developer.png" alt="ZakaUllah - Web Developer working on laptop" class="hero-main-page-img" loading="lazy">
+                </div>
+                <div class="hero-right">
+                    <h1>Your One-Stop Solution for Professional Web Development</h1>
+                    <p>Hi, I'm <strong>Zaka Ullah Bhatti</strong>, a passionate web developer dedicated to creating stunning, responsive, and user-friendly websites. With expertise in HTML, CSS, JavaScript, Bootstrap, GitHub, and WordPress, I bring your ideas to life on the web.</p>
+                    <p>Whether you need a personal portfolio, business website, e-commerce platform, or custom web application, I've got you covered. Explore my skills and completed projects below!</p>
+                </div>
+            </section>
+            
+            <!-- Features/Skills Section -->
+            <section class="features" aria-labelledby="skills-heading">
+                <h2 id="skills-heading" class="visually-hidden">My Skills</h2>
+                <div class="cards-row">
+                    <article class="card">
+                        <span class="icon"><i class="fa-brands fa-html5"></i></span>
+                        <h3>HTML5 & CSS3</h3>
+                        <p>Modern, responsive layouts and beautiful designs.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon"><i class="fa-brands fa-js"></i></span>
+                        <h3>JavaScript (ES6+)</h3>
+                        <p>Dynamic, interactive features for your website.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon"><i class="fa-brands fa-bootstrap"></i></span>
+                        <h3>Bootstrap</h3>
+                        <p>Fast, mobile-friendly UI with Bootstrap framework.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon"><i class="fa-brands fa-github"></i></span>
+                        <h3>GitHub</h3>
+                        <p>Version control and code collaboration for your projects.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon"><i class="fa-brands fa-wordpress"></i></span>
+                        <h3>WordPress</h3>
+                        <p>Custom themes, plugins, and complete WordPress solutions.</p>
+                    </article>
+                    <article class="card">
+                        <span class="icon"><i class="fa-brands fa-node-js"></i></span>
+                        <h3>Node.js</h3>
+                        <p>Backend solutions with Node.js (currently learning).</p>
+                    </article>
+                </div>
+                <div class="line"></div>
+                
+                <div class="hero-Projects-text">
+                    <h2>Completed Projects</h2>
+                    <p>Here are some of the websites I have developed:</p>
+                </div>
+            </section>
+
+            <!-- Projects Grid -->
+            <section class="cards-row projects-grid" aria-labelledby="projects-heading">
+                <h2 id="projects-heading" class="visually-hidden">My Projects</h2>
+                
+                <!-- Project 1: Flashing Tools -->
+                <article class="card site-card" data-category="tools">
+                    <img src="images/Flashing-tools.png" alt="Flashing Tools Website - Mobile firmware and flashing tools" loading="lazy">
+                    <h3>Flashing Tools Website</h3>
+                    <p>
+                        Flash Files Hub is a professional mobile firmware & flashing tools website. It includes OPPO, Vivo, Samsung, Huawei, Redmi, and iPhone Clone flash files, plus top tools like UMT, CM2, Chimera, Unlock Tool, and more.
+                    </p>
+                    <ul class="card-features">
+                        <li>✅ Reliable & Professional</li>
+                        <li>✅ Contact info + Live Chat</li>
+                        <li>✅ Quick Response Time</li>
+                        <li>✅ SEO-friendly structure</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/mobile-website/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('100')">Buy Now - $100</button>
+                    </div>
+                </article>
+                
+                <!-- Project 2: Car Game -->
+                <article class="card site-card" data-category="game">
+                    <img src="images/Car Game.png" alt="Car Racing Game - Interactive browser game" loading="lazy">
+                    <h3>Car Racing Game</h3>
+                    <p>
+                        Fun and interactive car racing game with smooth controls and exciting gameplay. Perfect for entertainment websites or to showcase coding projects.
+                    </p>
+                    <ul class="card-features">
+                        <li>🎮 Smooth Car Controls</li>
+                        <li>🚧 Random Obstacles</li>
+                        <li>🔥 Score Tracking</li>
+                        <li>📱 Fully Responsive</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('Web Developer site/Car-Game-Projacet/index.html')">Play Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('50')">Buy Now - $50</button>
+                    </div>
+                </article>
+                
+                <!-- Project 3: Virtual Assistant -->
+                <article class="card site-card" data-category="business">
+                    <img src="images/Virtual-Assistant.png" alt="Virtual Assistant Services Website" loading="lazy">
+                    <h3>Virtual Assistant Website</h3>
+                    <p>
+                        Professional virtual assistant service website. Help businesses and individuals save time, stay organized, and achieve goals faster.
+                    </p>
+                    <ul class="card-features">
+                        <li>✅ Reliable & Professional</li>
+                        <li>✅ Cost-Effective</li>
+                        <li>✅ Quick Response</li>
+                        <li>✅ 100% Satisfaction</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/virtual-assistant/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('20')">Buy Now - $20</button>
+                    </div>
+                </article>
+                
+                <!-- Project 4: Dashboard -->
+                <article class="card site-card" data-category="admin">
+                    <img src="images/Dashboard.png" alt="Admin Dashboard Website" loading="lazy">
+                    <h3>Dashboard / Admin Panel</h3>
+                    <p>
+                        Secure and professional dashboard website with login system. Perfect for managing data, analytics, and user accounts.
+                    </p>
+                    <ul class="card-features">
+                        <li>🔑 User Authentication</li>
+                        <li>📊 Data Analytics</li>
+                        <li>📱 Fully Responsive</li>
+                        <li>⚙️ Settings Management</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/dashboard/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('20')">Buy Now - $20</button>
+                    </div>
+                </article>
+                
+                <!-- Project 5: Tour & Travel -->
+                <article class="card site-card" data-category="travel">
+                    <img src="images/Tour-Travel.png" alt="Tour and Travel Agency Website" loading="lazy">
+                    <h3>Tour & Travel Website</h3>
+                    <p>
+                        Professional travel & tourism website: showcase tour packages, destinations, photo galleries, and easy booking forms.
+                    </p>
+                    <ul class="card-features">
+                        <li>🌍 Destinations Showcase</li>
+                        <li>📸 Photo Galleries</li>
+                        <li>📝 Booking Forms</li>
+                        <li>📱 Mobile Friendly</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/tour-website/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('30')">Buy Now - $30</button>
+                    </div>
+                </article>
+                
+                <!-- Project 6: Fitness Website -->
+                <article class="card site-card" data-category="fitness">
+                    <img src="images/Fitness-website.png" alt="Fitness and Gym Website" loading="lazy">
+                    <h3>Treadmill Fitness Website</h3>
+                    <p>
+                        Modern gym/fitness website for studios and personal trainers: online class schedule, membership plans, trainer profiles.
+                    </p>
+                    <ul class="card-features">
+                        <li>💪 Class Timetable</li>
+                        <li>📋 Membership Plans</li>
+                        <li>📊 BMI Calculator</li>
+                        <li>⭐ Testimonials</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/fitness-website/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('40')">Buy Now - $40</button>
+                    </div>
+                </article>
+                
+                <!-- Project 7: Shaadi/Rishta Website -->
+                <article class="card site-card" data-category="matrimonial">
+                    <img src="images/Rishta-website.png" alt="Matrimonial and Rishta Website" loading="lazy">
+                    <h3>Shaadi / Rishta Website</h3>
+                    <p>
+                        Modern matrimonial website with profile creation, photo uploads, search filters, and secure contact options.
+                    </p>
+                    <ul class="card-features">
+                        <li>💍 Profile Creation</li>
+                        <li>📸 Photo Uploads</li>
+                        <li>🔍 Search Filters</li>
+                        <li>🔒 Secure Contact</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/shaadi-website/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('70')">Buy Now - $70</button>
+                    </div>
+                </article>
+                
+                <!-- Project 8: Food Website -->
+                <article class="card site-card" data-category="food">
+                    <img src="images/Food-website.png" alt="Food Business and Restaurant Website" loading="lazy">
+                    <h3>Food Business Website</h3>
+                    <p>
+                        Professional food & restaurant website with online menu, booking system, customer reviews, and responsive design.
+                    </p>
+                    <ul class="card-features">
+                        <li>🍔 Online Menu</li>
+                        <li>🛒 Ordering System</li>
+                        <li>⭐ Customer Reviews</li>
+                        <li>📱 Fully Responsive</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/food-website/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('50')">Buy Now - $50</button>
+                    </div>
+                </article>
+                
+                <!-- Project 9: E-commerce -->
+                <article class="card site-card" data-category="ecommerce">
+                    <img src="images/E-commerce.png" alt="E-commerce Website" loading="lazy">
+                    <h3>E-commerce Website</h3>
+                    <p>
+                        A professional and modern E-commerce website with elegant design and user-friendly layout. Perfect for online stores.
+                    </p>
+                    <ul class="card-features">
+                        <li>🛍️ Product Pages</li>
+                        <li>🛒 Shopping Cart</li>
+                        <li>💳 Payment Integration</li>
+                        <li>📱 Responsive Design</li>
+                    </ul>
+                    <div class="card-actions">
+                        <button class="btn demo-btn" onclick="openDemo('projects/ecommerce/index.html')">View Demo</button>
+                        <button class="btn buy-btn" onclick="openBuyWithPrice('50')">Buy Now - $50</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <button id="toggleMode" class="mode-btn" aria-label="Toggle dark mode">
+        <span class="mode-icon">☼</span> Dark Mode
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-social">
+                <a href="mailto:zakaullahbhatti7@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/923216926370" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/zakaullah" target="_blank" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="footer-credits">
+                <p>&copy; 2025 ZakaUllah Bhatti. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <button id="chatToggleBtn" class="chat-toggle-btn" aria-label="Open chat">💬</button>
+
+    <div class="chat-widget" id="chatWidget" aria-hidden="true">
+        <div class="chat-header">
+            <h3>💬 Live Chat</h3>
+            <button class="close-btn" aria-label="Close chat">×</button>
+        </div>
+        <div class="chat-body" id="chatBody"></div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Type a message..." aria-label="Chat message">
+            <button id="sendBtn" aria-label="Send message">Send</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923216926370" class="whatsapp-chat" target="_blank" aria-label="Chat on WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="50" height="50">
+    </a>
+
+    <!-- Buy Popup -->
+    <div id="buyPopup" class="popup" aria-hidden="true">
+        <div class="popup-content">
+            <button class="close-btn" onclick="closeBuy()" aria-label="Close">&times;</button>
+            <h2 id="popupTitle">Buy Now</h2>
+            <p id="itemPriceDisplay">Price: $0</p>
+            <p>To proceed with your purchase, please contact us via WhatsApp.</p>
+            <a href="https://wa.me/923216926370" class="btn whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <!-- Demo Preview Popup -->
+    <div id="demoPreview" class="popup demo-preview" aria-hidden="true">
+        <div class="popup-content">
+            <button class="close-btn" onclick="closeDemo()" aria-label="Close">&times;</button>
+            <h2 id="demoTitle">Live Demo</h2>
+            <iframe id="demoFrame" src="" title="Demo Preview" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to improve your experience. By continuing, you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="cookie-btn accept">Accept</button>
+            <button id="reject-cookies" class="cookie-btn reject">Reject</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
