@@ -64,11 +64,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
+  scroll-padding-top: 80px; /* Taki menu ke niche content na chhupay */
 }
 
 body {
@@ -439,7 +440,16 @@ a:hover {
   box-shadow: var(--shadow-lg);
   animation: fadeInUp 0.8s ease;
 }
-
+@media (max-width: 992px) {
+  .hero-main-page {
+      flex-direction: column-reverse; /* Image niche aur text upar mobile par */
+      text-align: center;
+      padding: var(--spacing-xl) var(--spacing-md);
+  }
+  .hero-left, .hero-right {
+      width: 100%;
+  }
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;
