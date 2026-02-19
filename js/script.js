@@ -1,3 +1,31 @@
+
+    // === Mobile Menu & Overlay Animation ===
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeBtn = document.querySelector('.mobile-menu .close-btn');
+        const backdrop = document.getElementById('menuBackdrop');
+    
+        // Menu Open karne ke liye
+        if (menuBtn) {
+            menuBtn.addEventListener('click', function() {
+                mobileMenu.classList.add('active');
+                backdrop.classList.add('active');
+                mobileMenu.setAttribute('aria-hidden', 'false');
+            });
+        }
+    
+        // Menu Close karne ke liye (X button ya backdrop par click se)
+        function closeMenu() {
+            mobileMenu.classList.remove('active');
+            backdrop.classList.remove('active');
+            mobileMenu.setAttribute('aria-hidden', 'true');
+        }
+    
+        if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+        if (backdrop) backdrop.addEventListener('click', closeMenu);
+    });
+
 /* ================================================= */
 /* === Main JavaScript File - Optimized Version === */
 /* ================================================= */
