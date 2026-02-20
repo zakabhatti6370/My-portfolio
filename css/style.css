@@ -574,6 +574,8 @@ a:hover {
   margin-bottom: var(--spacing-md);
   flex-grow: 1;
   line-height: 1.6;
+  text-align: center;
+  
 }
 
 /* Site Cards (Project Cards) */
