@@ -479,10 +479,10 @@ a:hover {
 }
 
 .hero-right h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   margin-bottom: var(--spacing-lg);
   color: white;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .hero-right p {
