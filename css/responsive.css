@@ -20,7 +20,7 @@
 
 /* Menu Button */
 .menu-btn {
-  display: none;
+  display: block;
   font-size: 22px;
   background: #4caf50;
   border: none;
@@ -422,4 +422,5 @@
   }
 
 }
+
 
