@@ -252,6 +252,7 @@
   .logo{
    display: none;
   }
+  
   .container {
     width: 100%;
     padding: 0 15px;
@@ -370,6 +371,12 @@
 
 /* Extra Small Devices (up to 360px) */
 @media (max-width: 360px) {
+    .menu-btn {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
   .header h1 {
     font-size: 1.2rem;
     margin-right: 45px;
@@ -405,7 +412,7 @@
 
 /* Print Styles (for professional look when printing) */
 @media print {
-  .menu-btn,
+  /* .menu-btn, */
   .mobile-menu,
   .menu-backdrop,
   .search-bar,
@@ -431,6 +438,7 @@
   }
 
 }
+
 
 
 
