@@ -19,7 +19,7 @@
 }
 
 /* Menu Button */
-.menu-btn {
+/* .menu-btn {
   display: none;
   font-size: 22px;
   background: #4caf50;
@@ -29,7 +29,7 @@
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s;
-}
+} */
 
 .menu-btn:hover {
   background: #45a049;
@@ -438,6 +438,7 @@
   }
 
 }
+
 
 
 
