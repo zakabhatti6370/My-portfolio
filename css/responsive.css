@@ -20,7 +20,7 @@
 
 /* Menu Button */
 .menu-btn {
-  display: block;
+  display: none;
   font-size: 22px;
   background: #4caf50;
   border: none;
@@ -55,6 +55,9 @@
 
 /* Desktop (992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .menu-btn {
+  display: none;
+  }
   .container {
     max-width: 960px;
     margin: 0 auto;
@@ -71,6 +74,7 @@
 
 /* Tablet Landscape (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
+  
   .container {
     max-width: 720px;
     margin: 0 auto;
@@ -245,6 +249,9 @@
 
 /* Mobile Landscape (480px to 575px) */
 @media (min-width: 480px) and (max-width: 575px) {
+  .logo{
+   display: none;
+  }
   .container {
     width: 100%;
     padding: 0 15px;
@@ -424,6 +431,7 @@
   }
 
 }
+
 
 
 
