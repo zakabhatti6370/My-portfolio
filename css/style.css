@@ -479,14 +479,14 @@ a:hover {
 }
 
 .hero-right h1 {
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   margin-bottom: var(--spacing-lg);
   color: white;
   line-height: 1.4;
 }
 
 .hero-right p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: var(--spacing-md);
   opacity: 0.9;
 }
