@@ -1481,7 +1481,7 @@ body.dark-mode .popup .close-btn:hover {
 }
 
 .about-grid {
-   
+   display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
