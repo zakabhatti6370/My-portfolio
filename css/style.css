@@ -269,7 +269,7 @@ a:hover {
 }
 
 .nav li a.active {
-  color: var(--primary-color);
+  color:#fdcc0d;
 }
 
 /* Search Bar */
