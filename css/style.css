@@ -1,8 +1,6 @@
-/* ================================================= */
-/* === CSS Variables & Reset === */
-/* ================================================= */
+
 :root {
-  /* Light Mode Colors */
+
   --primary-color: #0d6efd;
   --secondary-color: #6c757d;
   --success-color: #28a745;
@@ -25,18 +23,17 @@
   --dark-text-color: #e0e0e0;
   --dark-border-color: #404040;
   
-  /* Shadows */
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.1);
   --shadow-hover: 0 15px 30px rgba(0, 0, 0, 0.15);
   
-  /* Dark Shadows */
+
   --dark-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
   --dark-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
   --dark-shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.5);
   
-  /* Spacing */
+
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -44,22 +41,19 @@
   --spacing-xl: 32px;
   --spacing-xxl: 48px;
   
-  /* Border Radius */
+
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
   --radius-xl: 16px;
   --radius-full: 9999px;
   
-  /* Transitions */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
 }
 
-/* ================================================= */
-/* === Reset & Base Styles === */
-/* ================================================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -83,9 +77,8 @@ body {
   flex-direction: column;
 }
 
-/* ================================================= */
 /* === Typography === */
-/* ================================================= */
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   font-weight: 600;
@@ -112,9 +105,9 @@ a:hover {
   color: #0056b3;
 }
 
-/* ================================================= */
+
 /* === Utility Classes === */
-/* ================================================= */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -139,9 +132,8 @@ a:hover {
   margin: var(--spacing-xl) 0;
 }
 
-/* ================================================= */
 /* === Top Social Icons === */
-/* ================================================= */
+
 .top-social-icons {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: var(--spacing-sm) 0;
@@ -174,9 +166,9 @@ a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* ================================================= */
+
 /* === Header === */
-/* ================================================= */
+
 .header {
   background: rgba(0, 0, 0, 0.9);
   color: white;
@@ -332,9 +324,8 @@ a:hover {
   background: var(--primary-color);
 }
 
-/* ================================================= */
 /* === Mobile Menu === */
-/* ================================================= */
+
 .mobile-menu {
   position: fixed;
   top: -100%;
@@ -425,9 +416,9 @@ a:hover {
   display: block;
 }
 
-/* ================================================= */
+
 /* === Hero Section === */
-/* ================================================= */
+
 .hero-main-page {
   display: flex;
   align-items: center;
@@ -511,9 +502,9 @@ a:hover {
   color: var(--secondary-color);
 }
 
-/* ================================================= */
+
 /* === Cards Grid === */
-/* ================================================= */
+
 .cards-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -686,9 +677,9 @@ a:hover {
   box-shadow: var(--shadow-md);
 }
 
-/* ================================================= */
+
 /* === Popups === */
-/* ================================================= */
+
 .popup {
   display: none;
   position: fixed;
@@ -784,9 +775,8 @@ a:hover {
   background: white;
 }
 
-/* ================================================= */
 /* === Chat Widget === */
-/* ================================================= */
+
 .chat-toggle-btn {
   position: fixed;
   bottom: 20px;
