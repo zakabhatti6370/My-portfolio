@@ -2,7 +2,7 @@
 
 Front-end web developer building clean web interfaces, interactive browser tools, and practical utilities using **HTML5**, **CSS3**, **JavaScript**, and **Python**.
 
-- **Portfolio & Work:** [My Portfolio](https://github.com/zakabhatti6370/My-portfolio)
+- **Live Portfolio:** [zakabhatti6370.github.io/My-portfolio](https://zakabhatti6370.github.io/My-portfolio/index.html)
 - **Blog & Resources:** [GSM Tested File](https://gsm-testedfile.blogspot.com/)
 
 ---
@@ -16,9 +16,9 @@ Front-end web developer building clean web interfaces, interactive browser tools
 
 #### Featured Projects & Work in Progress
 
+- **Personal Web Portfolio (Live)** — Clean, responsive developer portfolio showcasing front-end projects and UI work: [Open Live Portfolio](https://zakabhatti6370.github.io/My-portfolio/index.html) | [Source Code](https://github.com/zakabhatti6370/My-portfolio)
 - **GSM Repair Tools PRO *(Coming Soon)*** — Desktop utility for mobile service workflows covering pattern/PIN lock options, firmware flashing, FRP, and bootloader tasks across MediaTek (MTK), Qualcomm (EDL 9008), Unisoc/SPD, and ADB/Fastboot tabs. Updates and release details will be posted on [GSM Tested File](https://gsm-testedfile.blogspot.com/).
-- **Browser Car Game Project** — Interactive HTML5 canvas car game with virtual wallet, leaderboard, and mobile/desktop controls. Check out the project here: [Car Game Project](https://github.com/zakabhatti6370/-Car-Game-Project)
-- **Personal Web Portfolio** — Clean, responsive developer portfolio showcasing front-end projects and UI work: [My Portfolio](https://github.com/zakabhatti6370/My-portfolio)
+- **Browser Car Game Project** — Interactive HTML5 canvas car game with virtual wallet, leaderboard, and mobile/desktop controls: [Car Game Project](https://github.com/zakabhatti6370/-Car-Game-Project)
 
 =========================================================================
 
